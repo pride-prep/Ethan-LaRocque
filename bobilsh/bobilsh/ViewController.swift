@@ -21,8 +21,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var text: UITextField!
     
     @IBAction func button1(_ sender: Any) {
-       bob.text = text.text
-        Inputlabel.text = text.text
+        if text.text == ""{
+            bob.text = "ITS BOB"
+        }
+        else{
+            bob.text = text.text
+        }
     }
     @IBAction func Green(_ sender: Any) {
         bob.textColor = UIColor(red: 0, green: 255, blue: 0, alpha: 1)
@@ -44,6 +48,11 @@ class ViewController: UIViewController {
     @IBAction func Orange(_ sender: Any) {
        bob.textColor = UIColor(red: 255, green: 255, blue: 0, alpha: 1)
         Inputlabel.textColor = UIColor(red: 255, green: 255, blue: 0, alpha: 1)
+    }
+    @IBAction func Normal(_ sender: Any) {
+        bob.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+        Inputlabel.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+        
     }
 
     override func didReceiveMemoryWarning(){
