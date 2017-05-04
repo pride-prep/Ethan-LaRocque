@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TEXT-GAME-2.0/ViewController.swift"
-            timestampString = "515534135.403064"
+            timestampString = "515621641.330746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "Button1(_:)"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "Next(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
