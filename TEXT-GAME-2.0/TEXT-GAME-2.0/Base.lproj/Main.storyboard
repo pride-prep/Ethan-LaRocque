@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,13 +18,13 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Protector of time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dD-Hs-lIq">
-                                <rect key="frame" x="41" y="36" width="293" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Protector of time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="80" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dD-Hs-lIq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -38,7 +38,7 @@
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUR-Ck-xUJ">
                                 <rect key="frame" x="126" y="291" width="122" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="58"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sNV-xC-8j1"/>
@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <action selector="Button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kaK-fI-pvb"/>
+                                    <action selector="yes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4aq-IZ-lpN"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvE-sF-RkD">
@@ -59,18 +59,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="NO"/>
                                 <connections>
-                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hbr-Be-sIn"/>
+                                    <action selector="no:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gB2-gX-45d"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.15407366071428572" green="0.77220982142857142" blue="0.5291573660714286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="Button" destination="fvE-sF-RkD" id="Lw7-jD-KNq"/>
-                        <outlet property="Button1" destination="fU3-h1-ODg" id="UlE-mK-fgT"/>
                         <outlet property="Label" destination="9dD-Hs-lIq" id="yXk-P3-im2"/>
                         <outlet property="Name" destination="jrK-nK-Jjs" id="DIR-lb-OCL"/>
                         <outlet property="Next" destination="GUR-Ck-xUJ" id="aTM-Ey-3QZ"/>
+                        <outlet property="no" destination="fvE-sF-RkD" id="Y5i-Ss-kiU"/>
+                        <outlet property="yes" destination="fU3-h1-ODg" id="acr-Nr-Q2V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
