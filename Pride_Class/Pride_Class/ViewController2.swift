@@ -12,9 +12,14 @@ class ViewController2: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let viewControllerB = segue.destination as? ViewController3{
+            // list all variables from your second view controller
+            //Example: viewControllerB.stringPassed = textField.text!
+        }
+    }
     
     @IBAction func AlecJones(_ sender: Any) {
-        block1.text = "Alec"
     }
     @IBAction func AndreDove(_ sender: Any) {
     }
