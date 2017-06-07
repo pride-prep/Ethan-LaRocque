@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  Pride_Class
-//
-//  Created by Student on 6/2/17.
-//  Copyright © 2017 Prideprep. All rights reserved.
-//
+
 
 import UIKit
 

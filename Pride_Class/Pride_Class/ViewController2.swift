@@ -13,7 +13,7 @@ class ViewController2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let viewControllerB = segue.destination as? ViewController3{
+        if segue.destination is ViewController3{
             // list all variables from your second view controller
             //Example: viewControllerB.stringPassed = textField.text!
         }
