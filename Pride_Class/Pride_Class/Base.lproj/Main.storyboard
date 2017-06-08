@@ -27,7 +27,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7Jq-qk-Rjt"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="7Jq-qk-Rjt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T1K-PM-1IL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-523" y="45"/>
+            <point key="canvasLocation" x="-772" y="45"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -56,7 +56,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="90"/>
                                 <state key="normal" title="Map"/>
                                 <connections>
-                                    <segue destination="kOb-cY-VY1" kind="show" id="64s-Fi-XeA"/>
+                                    <segue destination="kOb-cY-VY1" kind="show" animates="NO" id="64s-Fi-XeA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9h3-Iw-N74">
@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="90"/>
                                 <state key="normal" title="Schedule"/>
                                 <connections>
-                                    <segue destination="XBK-MG-YAE" kind="show" id="WfH-iw-95H"/>
+                                    <segue destination="XBK-MG-YAE" kind="show" animates="NO" id="WfH-iw-95H"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pride Prep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l70-DN-PGu">
@@ -193,7 +193,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="HMc-Ge-RuR"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" animates="NO" id="HMc-Ge-RuR"/>
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="urR-75-wo1">
@@ -213,7 +213,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rhc-hj-0lN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="669.53125" y="45.703125"/>
+            <point key="canvasLocation" x="1092" y="69"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

@@ -1,14 +1,11 @@
 import UIKit
 
 class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-    
-    
-    var selection: String = "";
     override func viewDidLoad() {
         super.viewDidLoad()
         self.Teachers.delegate = self
         self.Teachers.dataSource = self
-        pickerData = ["Alec", "Andre", "Anne", "Brynn", "Cassie", "Charlie ","Houston Robison","Jane","Jennifer","Lacey","Maggie","Mandie Soto","Matt Miller","Sean Hopf","Tom Lee","Tommy Glasser","Tricia Novak"]
+        pickerData = ["Alec", "Andre", "Anne", "Brynn", "Cassie", "Charlie ","Houston Robison","Jane","Jennifer","Lacey","Maggie","Mandie","Matt","Sean","Tom","Tommy","Tricia"]
         Block1.text = StringPassed
         Block2.text = StringPassed
         Block3.text = StringPassed
@@ -36,19 +33,12 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         return pickerData[row]
     }
     
-    // Catpure the picker view selection
-    /*func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        // This method is triggered whenever the user makes a change to the picker selection.
-        // The parameter named row and component represents what was selected.
-        pickerSelectionLabel.text = pickerData[row]
-        // any other logic here
-    }*/
-    
     @IBOutlet weak var Teachers: UIPickerView!
     @IBOutlet weak var Block1: UILabel!
     @IBOutlet weak var Block2: UILabel!
     @IBOutlet weak var Block3: UILabel!
     @IBOutlet weak var Block4: UILabel!
+    var selection: String = "";
     var StringPassed = "";
     var pickerData: [String] = [String]()
     @IBAction func block1(_ sender: Any) {
@@ -63,4 +53,8 @@ class ViewController3: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     @IBAction func block4(_ sender: Any) {
         Block4.text = selection;
     }
+    var blck1 = UserDefaults.standard
+    var block2 = UserDefaults.standard
+    var block3 = UserDefaults.standard
+    var block4 = UserDefaults.standard
 }
