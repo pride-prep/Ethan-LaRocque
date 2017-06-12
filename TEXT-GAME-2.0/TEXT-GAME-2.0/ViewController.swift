@@ -52,7 +52,7 @@ class ViewController: UIViewController {
             Label.text = "STRANGER: HELLO, HELLO WAKE UP SIR."
         }
         if buttonNextPush == 3{
-            Label.text = "YOU WAKE UP WITH A DAZED EXPRSION ON YOUR FACE"
+            Label.text = "YOU WAKE UP WITH A DAZED EXPRSION ON YOUR FAC bobE"
         }
         if buttonNextPush == 4{
             Label.text = "STRANGER: FINALLY SIR I AM TERRIBLY SORRY THAT I HAD TO KNOCK YOU OUT BUT IT WAS THE ONLY WAY I COULD GET YOU HERE"
